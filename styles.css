@@ -8,6 +8,11 @@ h1
     color: #0a3c6e;
     text-align: center;
 }
+h2, h3
+{
+    color: #0a3c6e;
+    text-align: left;
+}
 .content
 {
     max-width: 900px;
