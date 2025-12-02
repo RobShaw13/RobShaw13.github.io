@@ -17,11 +17,11 @@ h1, h2, h3
 
 .project img
 {
- width: 90%;                           /* good size, scales with page */
-    max-width: 500px;                     /* prevents them from getting huge */
-    height: auto;                         /* keeps proper aspect ratio */
-    display: block;                       /* centers images */
+ width: 90%;                          
+    max-width: 500px;                     
+    height: auto;                        
+    display: block;                   
     margin-left: 0;
-    border: 3px solid #0a3c6e;            /* clean outline */
-    border-radius: 8px;                   /* slightly rounded corners */
+    border: 3px solid #0a3c6e;           
+    border-radius: 8px;                  
 }
