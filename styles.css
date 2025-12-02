@@ -1,16 +1,27 @@
-body {
-    background: #AFE1E0 ;
+body 
+{
+    background: #f4f4f4 ;
     font-family: 'Times New Roman', Times, serif;
 }
-h1 {
-    color: #6A97DE;
+h1, h2, h3 
+{
+    color: #0a3c6e;
     text-align: center;
 }
-.project img{
-width: 500px;
-height: 250px;
-margin: 10px;
-border: 2px solid rgb(126, 14, 201); /* choose a color */
-display: block;
-margin-left: 0;
+.content
+{
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.project img
+{
+ width: 90%;                           /* good size, scales with page */
+    max-width: 500px;                     /* prevents them from getting huge */
+    height: auto;                         /* keeps proper aspect ratio */
+    display: block;                       /* centers images */
+    margin-left: 0;
+    border: 3px solid #0a3c6e;            /* clean outline */
+    border-radius: 8px;                   /* slightly rounded corners */
 }
